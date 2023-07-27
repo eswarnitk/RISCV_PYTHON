@@ -8,7 +8,9 @@ It will build openssl, zlib and libffi while installing python.
 Installation Steps :
 
 chmod +x Build_Riscv_Python_FPU.sh
+
 #To Create a host version of Python, This will be used for creating cross-compile version.
+
 source Build_Riscv_Python_FPU.sh PYPATH
 
 #To create riscv python
@@ -16,5 +18,7 @@ source Build_Riscv_Python_FPU.sh PYPATH
 ./Build_Riscv_Python_FPU.sh FPU
 
 #To Run
+
 To Run python use QEMU with RISCV_ISA.
+
 Add installation directory(python_3_9_14_FPU_Install) bin path to PATH Variable.
