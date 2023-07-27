@@ -16,4 +16,5 @@ source Build_Riscv_Python_FPU.sh PYPATH
 ./Build_Riscv_Python_FPU.sh FPU
 
 #To Run
+To Run python use QEMU with RISCV_ISA.
 Add installation directory(python_3_9_14_FPU_Install) bin path to PATH Variable.
